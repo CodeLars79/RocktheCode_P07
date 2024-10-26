@@ -27,7 +27,7 @@ This project is a Node.js-based RESTful API for a movie rental service. It suppo
 ## Environment Variables
 The environment variables are set up in a .env file 
 
-## Project structure
+## Project structure 📁
 ![ProjectStructure](https://github.com/user-attachments/assets/25342a5c-1cee-45f4-aa1f-f939443e2666)
 
 
@@ -61,7 +61,7 @@ The environment variables are set up in a .env file
 To seed initial data (like default admin user and example movies):
 - Run the seed script: *npm run seed*
 
-## Role-Based Permissions
+## Role-Based Permissions 👩‍🦰👦
 - Admin: Full access to user and movie management. Can delete any user, add/edit/delete movies, and change user roles.
 - User: Can register, login, edit their own profile, delete their own account, and manage their favorite movies.
 
