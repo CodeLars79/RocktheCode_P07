@@ -15,7 +15,7 @@ This project is a Node.js-based RESTful API for a movie rental service. It suppo
 
 ## Tech Stack 🚀
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB (Mongoose for ORM)
+- **Database**: MongoDB 
 - **Authentication**: JSON Web Tokens (JWT)
 - **Authorization**: Middleware for role-based permissions
 
@@ -26,6 +26,10 @@ This project is a Node.js-based RESTful API for a movie rental service. It suppo
 
 ## Environment Variables
 The environment variables are set up in a .env file 
+
+## Project structure
+![ProjectStructure](https://github.com/user-attachments/assets/25342a5c-1cee-45f4-aa1f-f939443e2666)
+
 
 ## Usage
 1.	Start the server in development mode with nodemon: *npm run dev*
