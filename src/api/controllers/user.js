@@ -6,16 +6,12 @@ const bcrypt = require('bcrypt')
 //postUser CREATE
 const register = async (req, res, next) => {
   try {
-    const { userName, password, role } = req.body
-
-    if (role && !['USER', 'ADMIN'].includes(role)) {
-      return res.status(400).json({ message: 'Invalid role' })
-    }
+    const { userName, password } = req.body
 
     const newUser = new User({
       userName,
       password,
-      role: role || 'USER' // Default to 'USER' if not specified
+      role: 'USER'
     })
 
     await newUser.save()
